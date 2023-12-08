@@ -13,3 +13,39 @@ img {
     width: 100%;
     display: block;
 }
+
+
+/* 
+    GENERAL
+*/
+
+.my-carousel-container {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+.my-carousel-container img {
+    height: 100%;
+    object-fit: contain;
+}
+
+#img-01 {
+    display: block;
+}
+
+#img-02 {
+    display: none;
+}
+
+#img-03 {
+    display: none;
+}
+
+#img-04 {
+    display: none;
+}
+
+#img-05 {
+    display: none;
+}
