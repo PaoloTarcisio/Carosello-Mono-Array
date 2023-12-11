@@ -20,8 +20,8 @@ img {
 */
 
 .my-carousel-container {
-    width: 600px;
-    height: 400px;
+    width: 900px;
+    height: 600px;
     margin: 50px auto;
 }
 
@@ -30,7 +30,17 @@ img {
     object-fit: contain;
 }
 
-#img-01 {
+
+.item {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+/* #img-01 {
     display: block;
 }
 
@@ -48,4 +58,4 @@ img {
 
 #img-05 {
     display: none;
-}
+} */
