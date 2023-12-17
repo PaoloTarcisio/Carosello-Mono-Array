@@ -11,7 +11,10 @@
 
 img {
     width: 100%;
+    height: 100%;
     display: block;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 
@@ -19,43 +22,20 @@ img {
     GENERAL
 */
 
+main {
+    text-align: center;
+}
+
 .my-carousel-container {
     width: 900px;
     height: 600px;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
-.my-carousel-container img {
-    height: 100%;
-    object-fit: contain;
-}
-
-
-.item {
+.hidden {
     display: none;
 }
 
 .active {
     display: block;
 }
-
-
-/* #img-01 {
-    display: block;
-}
-
-#img-02 {
-    display: none;
-}
-
-#img-03 {
-    display: none;
-}
-
-#img-04 {
-    display: none;
-}
-
-#img-05 {
-    display: none;
-} */
